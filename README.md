@@ -12,3 +12,13 @@
 - **Time Complexity:** O(max(m, n))  
 - **Space Complexity:** O(max(m, n))  
 - **Code:** See `Medium/add-two-numbers.js`
+
+## Medium
+
+### [3. Reverse Integer](https://leetcode.com/problems/reverse-integer/)
+- **Difficulty:** Medium  
+- **Approach:** Extract digits using modulo and build reversed number while checking for 32-bit overflow.
+- **Time Complexity:** O(log₁₀(n)) (since we process each digit once) 
+- **Space Complexity:** O(1) 
+- **Code:** See `Medium/reverse-integer.js`
+https://leetcode.com/problems/reverse-integer/
